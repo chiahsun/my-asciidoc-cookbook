@@ -1,0 +1,8 @@
+= My asciidoc Cookbook
+
+:source-highlighter: highlight.js
+:source-language: adoc 
+:icons: font
+
+
+include::table.adoc[]

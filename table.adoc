@@ -1,0 +1,18 @@
+== Table Formatting
+
+=== Auto Width Fitting
+
+[%autowidth.spread]
+|===
+|Sample Header | |
+
+|Sample Text|A long long long sentence|Short
+
+|===
+
+link:table.adoc[table.adoc]
+
+[source]
+----
+include::table.adoc[lines="5..11"]
+----
