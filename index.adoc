@@ -9,5 +9,9 @@ include::text1.adoc[]
 include::text2.adoc[]
 include::text3.adoc[]
 
-
+== Table Formatting
 include::table.adoc[]
+include::table2.adoc[]
+include::table3.adoc[]
+include::table4.adoc[]
+include::table5.adoc[]

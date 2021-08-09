@@ -1,0 +1,18 @@
+=== Multiple Rows/Columns
+
+.multiple rows/columns
+[%autowidth.spread]
+|===
+
+| 1 | 2 | 3 | 4
+|A 2.2+^.^|B |C
+|A |C |
+
+|===
+
+link:table2.adoc[table2.adoc]
+
+[source]
+----
+include::table2.adoc[lines=3..11]
+----

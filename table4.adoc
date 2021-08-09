@@ -1,0 +1,16 @@
+.multiple rows only
+[%autowidth.spread]
+|===
+
+| 1 | 2 | 3 | 4
+|A 1.2+^.^|B | C | D
+|A           | C | D
+
+|===
+
+link:table4.adoc[table4.adoc]
+
+[source]
+----
+include::table4.adoc[lines=1..9]
+----

@@ -1,0 +1,16 @@
+.multiple columns only
+[%autowidth.spread]
+|===
+
+| 1 | 2 | 3 | 4
+|A 2.1+^.^|B | C
+|A | D | E   | C
+
+|===
+
+link:table3.adoc[table3.adoc]
+
+[source]
+----
+include::table3.adoc[lines=1..9]
+----

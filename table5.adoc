@@ -1,0 +1,17 @@
+.multiple rows only with newline
+[%autowidth.spread]
+|===
+
+| 1 | 2 | 3 | 4
+|A 1.2+^.^|B +
+E | C | D
+|A           | C | D
+
+|===
+
+link:table5.adoc[table5.adoc]
+
+[source]
+----
+include::table5.adoc[lines=1..10]
+----

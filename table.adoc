@@ -1,5 +1,3 @@
-== Table Formatting
-
 === Auto Width Fitting
 
 [%autowidth.spread]
@@ -16,3 +14,4 @@ link:table.adoc[table.adoc]
 ----
 include::table.adoc[lines=5..11]
 ----
+
