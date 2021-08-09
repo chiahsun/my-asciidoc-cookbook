@@ -1,0 +1,10 @@
+=== Add Strikethrough
+
+[line-through]#This is wrong#
+
+link:text3.adoc[text3.adoc]
+
+[source]
+----
+include::text3.adoc[lines=3]
+----

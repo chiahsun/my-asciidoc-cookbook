@@ -1,0 +1,15 @@
+=== Add Color in Table
+
+[%autowidth.spread]
+|===
+
+| This is a sentence and [red]##this is red##
+
+|===
+
+link:text2.adoc[text2.adoc]
+
+[source]
+----
+include::text2.adoc[lines=3..8]
+----

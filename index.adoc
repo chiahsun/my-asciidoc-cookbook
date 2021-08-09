@@ -4,5 +4,10 @@
 :source-language: adoc 
 :icons: font
 
+== Text Formatting
+include::text1.adoc[]
+include::text2.adoc[]
+include::text3.adoc[]
+
 
 include::table.adoc[]

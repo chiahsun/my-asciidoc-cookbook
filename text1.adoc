@@ -1,0 +1,10 @@
+=== Add Color
+
+[red]#This is red#
+
+link:text1.adoc[text1.adoc]
+
+[source]
+----
+include::text1.adoc[lines=3]
+----

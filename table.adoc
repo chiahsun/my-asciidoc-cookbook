@@ -14,5 +14,5 @@ link:table.adoc[table.adoc]
 
 [source]
 ----
-include::table.adoc[lines="5..11"]
+include::table.adoc[lines=5..11]
 ----
