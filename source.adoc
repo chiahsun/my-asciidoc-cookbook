@@ -1,0 +1,36 @@
+=== Add source code block
+
+[source,python]
+---------
+print("Hello World")
+---------
+
+link:source.adoc[source.adoc]
+
+[source]
+----
+include::source.adoc[lines=3..6]
+----
+
+=== Specify the default language/highlighter for source block
+
+Below your book name, add the following attributes:
+
+[source,asciidoc]
+---------
+= Book Name
+
+:source-highlighter: highlight.js
+:source-language: python
+---------
+
+Different source highlighter to choose:
+
+* coderay
+* highlight.js
+* pygments
+* rouge
+
+https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-highlighter/[Source Highlighting]
+
+https://asciidoc.org/source-highlight-filter.html[https://asciidoc.org/source-highlight-filter.html]

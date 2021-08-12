@@ -1,5 +1,7 @@
 = My asciidoc Cookbook
-
+:doctype: book
+:publication-type: book
+:toc: left
 :source-highlighter: highlight.js
 :source-language: adoc 
 :icons: font
@@ -15,3 +17,6 @@ include::table2.adoc[]
 include::table3.adoc[]
 include::table4.adoc[]
 include::table5.adoc[]
+
+== Source Code
+include::source.adoc[]
