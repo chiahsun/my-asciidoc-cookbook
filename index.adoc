@@ -18,5 +18,8 @@ include::table3.adoc[]
 include::table4.adoc[]
 include::table5.adoc[]
 
+== Image
+include::image.adoc[]
+
 == Source Code
 include::source.adoc[]

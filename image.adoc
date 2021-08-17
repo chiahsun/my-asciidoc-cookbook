@@ -1,0 +1,15 @@
+=== Include an Image
+
+Described in
+
+* https://docs.asciidoctor.org/asciidoc/latest/macros/image-size/[Image Size]
+
+image::images/images-1.png[asciidoc, 200]
+
+link:image.adoc[image.adoc]
+
+[source]
+----
+include::image.adoc[lines=7]
+----
+
