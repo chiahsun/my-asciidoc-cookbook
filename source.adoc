@@ -1,5 +1,10 @@
 === Add source code block
 
+Described in
+
+* https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-blocks/[Source Blocks]
+* https://docs.asciidoctor.org/asciidoc/latest/verbatim/highlight-lines/[Highlight Select Lines]
+
 [source,python]
 ---------
 print("Hello World")
@@ -9,7 +14,23 @@ link:source.adoc[source.adoc]
 
 [source]
 ----
-include::source.adoc[lines=3..6]
+include::source.adoc[lines=8..11]
+----
+
+link:source2.adoc[source2.adoc]
+
+[source]
+include::source2.adoc[]
+
+If the source code is followed by `[source]`, then we don't need to use `-----`.
+
+==== Specify specific line numbers
+
+See source in link:source.adoc[source.adoc]
+
+[source,text]
+----
+include::source.py[lines=1..2;5..6]
 ----
 
 === Specify the default language/highlighter for source block

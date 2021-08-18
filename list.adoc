@@ -1,0 +1,14 @@
+=== Add list with blocks
+
+Described in
+
+* https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/[List Continuation]
+
+See source in link:list.adoc[list.adoc]
+
+1. Sample
++
+[source, python]
+print("Hello World")
+2. Sample 2
+
