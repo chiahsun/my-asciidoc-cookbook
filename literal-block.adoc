@@ -1,0 +1,12 @@
+=== Literal Block
+
+Described in
+
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#literals-and-source-code[Literals and Source Code]
+
++++....+++
+
+Some words between four dots.
+
++++....+++
+

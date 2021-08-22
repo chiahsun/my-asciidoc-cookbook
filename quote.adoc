@@ -1,0 +1,14 @@
+=== Quote Block
+
+Described in
+
+* https://docs.asciidoctor.org/asciidoc/latest/blocks/blockquotes/[Quoted block]
+
+include::quote1.adoc[]
+
+
+link:./quote1.adoc[quote1.adoc]
+
+....
+include::quote1.adoc[]
+....

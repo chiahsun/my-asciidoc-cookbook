@@ -21,8 +21,10 @@ include::table5.adoc[]
 == Image
 include::image.adoc[]
 
-== Source Code
+== Block
 include::source.adoc[]
+include::quote.adoc[]
+include::literal-block.adoc[]
 
 == List
 include::list.adoc[]
