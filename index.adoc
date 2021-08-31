@@ -25,6 +25,8 @@ include::image.adoc[]
 include::source.adoc[]
 include::quote.adoc[]
 include::literal-block.adoc[]
+include::admonitions.adoc[]
+
 
 == List
 include::list.adoc[]

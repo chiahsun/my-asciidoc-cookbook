@@ -1,0 +1,23 @@
+=== Admonition Block
+
+Described in
+
+* https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/[admonitions]
+
+include::warning.adoc[]
+
+link:./warning.adoc[warning.adoc]
+
+++++
+include::warning.adoc[]
+++++
+
++++<br>+++
+
+List of admonitions
+
+* NOTE
+* TIP
+* IMPORTANT
+* CAUTION
+* WARNING
