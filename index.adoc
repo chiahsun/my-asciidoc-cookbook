@@ -27,6 +27,8 @@ include::quote.adoc[]
 include::literal-block.adoc[]
 include::admonitions.adoc[]
 
-
 == List
 include::list.adoc[]
+
+== Math
+include::math.adoc[]

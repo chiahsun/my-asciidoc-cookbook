@@ -1,0 +1,31 @@
+
+
+For Mathjax support, include the following code in your `index.adoc` for STEM processing
+
+[source]
+---------
+:stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+---------
+
+Use the inline syntax
+
+[source]
+---------
+\( your mathjax expressions here \)
+---------
+
+Use the block syntax
+
+[source]
+---------
+\[
+your mathjax expressions here
+\]
+---------
+
+
+Described in
+
+* https://docs.asciidoctor.org/asciidoctor/latest/stem/mathjax/[Mathjax]
+* https://docs.asciidoctor.org/asciidoc/latest/stem/[Equations and Formulas]
+* https://docs.mathjax.org/en/latest/input/tex/delimiters.html[TeX and LaTeX math delimiters]
