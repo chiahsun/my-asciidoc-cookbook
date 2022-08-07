@@ -1,0 +1,16 @@
+
+
+=== Collapsible Block
+
+Described in
+
+* https://blog.mrhaki.com/2019/03/awesome-asciidoctor-collapsible-content.html[Awesome Asciidoctor: Collapsible Content]
+* https://stackoverflow.com/questions/34326324/how-to-dynamically-hide-asciidoc-element[Stackoverflow]
+
+include::block-collapsible1.adoc[]
+
+link:./block-collapsible1.adoc[block-collapsible1.adoc]
+
+....
+include::block-collapsible1.adoc[]
+....

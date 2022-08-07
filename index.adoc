@@ -5,6 +5,7 @@
 :source-highlighter: highlight.js
 :source-language: adoc 
 :icons: font
+:stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 
 == Text Formatting
 include::text1.adoc[]
@@ -26,6 +27,7 @@ include::source.adoc[]
 include::quote.adoc[]
 include::literal-block.adoc[]
 include::admonitions.adoc[]
+include::block-collapsible.adoc[]
 
 == List
 include::list.adoc[]

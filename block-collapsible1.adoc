@@ -1,0 +1,6 @@
+
+.This is a collapsible block
+[%collapsible]
+====
+Some hidden content!
+====

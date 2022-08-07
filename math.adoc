@@ -2,25 +2,11 @@
 
 For Mathjax support, include the following code in your `index.adoc` for STEM processing
 
+link:./index.adoc[index.adoc]
+
 [source]
 ---------
 :stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
----------
-
-Use the inline syntax
-
-[source]
----------
-\( your mathjax expressions here \)
----------
-
-Use the block syntax
-
-[source]
----------
-\[
-your mathjax expressions here
-\]
 ---------
 
 
@@ -29,3 +15,40 @@ Described in
 * https://docs.asciidoctor.org/asciidoctor/latest/stem/mathjax/[Mathjax]
 * https://docs.asciidoctor.org/asciidoc/latest/stem/[Equations and Formulas]
 * https://docs.mathjax.org/en/latest/input/tex/delimiters.html[TeX and LaTeX math delimiters]
+
+=== Use the inline syntax
+
+[source]
+---------
+\( your mathjax expressions here \)
+---------
+
+For example,
+
+include::mathjax-inline.adoc[]
+
+link:./mathjax-inline.adoc[mathjax-inline.adoc]
+
+....
+include::mathjax-inline.adoc[]
+....
+
+
+=== Use the block syntax
+
+[source]
+---------
+\[
+your mathjax expressions here
+\]
+---------
+
+For example,
+
+include::mathjax-block.adoc[]
+
+link:./mathjax-block.adoc[mathjax-block.adoc]
+
+....
+include::mathjax-block.adoc[]
+....
