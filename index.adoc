@@ -29,8 +29,9 @@ include::literal-block.adoc[]
 include::admonitions.adoc[]
 include::block-collapsible.adoc[]
 
-== List
 include::list.adoc[]
 
 == Math
 include::math.adoc[]
+
+include::misc.adoc[]

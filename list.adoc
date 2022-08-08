@@ -1,14 +1,30 @@
-=== Add list with blocks
+
+== List
+
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#lists[Quick reference]
+
+=== List with blocks
 
 Described in
 
 * https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/[List Continuation]
 
-See source in link:list.adoc[list.adoc]
+include::list-block.adoc[]
 
-1. Sample
-+
-[source, python]
-print("Hello World")
-2. Sample 2
+link:./list-block.adoc[list-block.adoc]
+
+....
+include::list-block.adoc[]
+....
+
+=== Description List
+
+include::list-description.adoc[]
+
+link:./list-description.adoc[list-description.adoc]
+
+....
+include::list-description.adoc[]
+....
+
 

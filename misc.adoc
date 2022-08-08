@@ -1,0 +1,12 @@
+
+== Miscellaneous
+
+=== Horizontal Line
+
+include::misc-horizontal-line.adoc[]
+
+link:./misc-horizontal-line.adoc[misc-horizontal-line.adoc]
+
+....
+include::misc-horizontal-line.adoc[]
+....
