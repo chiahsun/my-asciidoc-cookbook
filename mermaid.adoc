@@ -1,0 +1,20 @@
+
+=== Mermaid Chart
+
+Check the https://mermaid.js.org/syntax/flowchart.html[Mermaid chart examples]
+
+Need to install the https://docs.asciidoctor.org/diagram-extension/latest/installation/[Asciidoctor extensions for diagram]
+
+[source,bash]
+gem install asciidoctor-diagram
+
+[mermaid]
+----
+flowchart TD
+Start --> Stop
+----
+
+When run asciidoctor, note that you need to add the flag `-r asciidoctor-diagram`
+
+[source,bash]
+asciidoctor -r asciidoctor-diagram ...

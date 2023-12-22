@@ -33,5 +33,9 @@ include::list.adoc[]
 
 == Math
 include::math.adoc[]
+== Diagram
+include::mermaid.adoc[]
+
 
 include::misc.adoc[]
+
