@@ -4,36 +4,43 @@ Described in
 
 * https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-blocks/[Source Blocks]
 * https://docs.asciidoctor.org/asciidoc/latest/verbatim/highlight-lines/[Highlight Select Lines]
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#literals-and-source-code[Quick reference]
+
+....
+[source,python]
+---------
+include::source.py[]
+---------
+....
 
 [source,python]
 ---------
-print("Hello World")
+include::source.py[]
 ---------
 
-link:source.adoc[source.adoc]
+....
+[source,python]
+print('Hello world!')
+....
 
-[source]
-----
-include::source.adoc[lines=8..11]
-----
-
-link:source2.adoc[source2.adoc]
-
-[source]
-include::source2.adoc[]
-
-If the source code is followed by `[source]`, then we don't need to use `-----`.
+[source,python]
+print('Hello world!')
 
 ==== Specify specific line numbers
 
-See source in link:source.adoc[source.adoc]
+....
+ [source,text]
+ ----
+ include::source2.py[lines=1..2;5..6]
+ ----
+....
 
 [source,text]
 ----
-include::source.py[lines=1..2;5..6]
+include::source2.py[lines=1..2;5..6]
 ----
 
-=== Specify the default language/highlighter for source block
+==== Specify the default language/highlighter for source block
 
 Below your book name, add the following attributes:
 
@@ -43,6 +50,7 @@ Below your book name, add the following attributes:
 
 :source-highlighter: highlight.js
 :source-language: python
+:highlightjs-languages: dart // Some language are not enabled by default, e.g. dart
 ---------
 
 Different source highlighter to choose:
@@ -56,4 +64,23 @@ https://docs.asciidoctor.org/asciidoc/latest/verbatim/source-highlighter/[Source
 
 https://asciidoc.org/source-highlight-filter.html[https://asciidoc.org/source-highlight-filter.html]
 
+==== Add callouts
 
+[source,python]
+----
+for i in range(10):
+  if (i > 10):
+    print(i) // <1>
+----
+<1> Never reach here
+
+
+....
+[source,python]
+----
+for i in range(10):
+  if (i > 10):
+    print(i) // <1>
+----
+<1> Never reach here
+....

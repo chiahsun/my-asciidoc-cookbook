@@ -14,7 +14,7 @@ flowchart TD
 Start --> Stop
 ----
 
-When run asciidoctor, note that you need to add the flag `-r asciidoctor-diagram`
+When run asciidoctor, note that you need to https://docs.asciidoctor.org/diagram-extension/latest/installation/[add the flag] `-r asciidoctor-diagram`
 
 [source,bash]
 asciidoctor -r asciidoctor-diagram ...
