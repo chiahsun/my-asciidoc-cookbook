@@ -7,6 +7,9 @@
 :icons: font
 :stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 
+== Installation
+include::installation.adoc[]
+
 == Text Formatting
 include::text1.adoc[]
 include::text2.adoc[]
