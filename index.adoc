@@ -3,6 +3,7 @@
 :publication-type: book
 :toc: left
 :source-highlighter: highlight.js
+:highlightjs-theme: night-owl
 :source-language: adoc 
 :icons: font
 :stem: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>

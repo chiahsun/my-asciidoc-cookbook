@@ -3,10 +3,12 @@ If you use Homebrew under Mac, you can install asciidoctor by the following step
 
 1. Install Homebrew
 2. Install https://github.com/sportngin/brew-gem[brew-gem]
++ 
 [source,bash]
 ----
 brew install brew-gem
 ----
+
 
 3. Install `asciidoctor` from `brew-gem`
 
